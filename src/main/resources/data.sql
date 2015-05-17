@@ -1,0 +1,6 @@
+INSERT INTO TIMETABLE (trainCode, carrier, departureStation, destinationStation, delayInMinutes, plannedArrivalHour, plannedArrivalMinute, track) VALUES ('101233', 'Železnice Srbije', 'Beograd', 'Niš', 0, 12, 30, 1);
+INSERT INTO TIMETABLE (trainCode, carrier, departureStation, destinationStation, delayInMinutes, plannedArrivalHour, plannedArrivalMinute, track) VALUES ('2006', 'Železnice Srbije', 'Beograd', 'Subotica', 5, 12, 40, 2);
+INSERT INTO TIMETABLE (trainCode, carrier, departureStation, destinationStation, delayInMinutes, plannedArrivalHour, plannedArrivalMinute, track) VALUES ('100', 'Železnice Srbije', 'Beograd', 'Vršac', 0, 13, 0, 3);
+INSERT INTO TIMETABLE (trainCode, carrier, departureStation, destinationStation, delayInMinutes, plannedArrivalHour, plannedArrivalMinute, track) VALUES ('200200', 'Železnice Srbije', 'Beograd', 'Novi Sad', 10, 13, 15, 1);
+INSERT INTO TIMETABLE (trainCode, carrier, departureStation, destinationStation, delayInMinutes, plannedArrivalHour, plannedArrivalMinute, track) VALUES ('100900', 'Železnice Srbije', 'Beograd', 'Bar', 30, 13, 30, 4);
+INSERT INTO TIMETABLE (trainCode, carrier, departureStation, destinationStation, delayInMinutes, plannedArrivalHour, plannedArrivalMinute, track) VALUES ('456', 'Železnice Srbije', 'Beograd', 'Pančevo', 10, 14, 0, 1);
