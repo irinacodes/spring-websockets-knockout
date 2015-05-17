@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 import rs.enetel.Timetable;
 import rs.enetel.repository.TimetableRepository;
 import rs.enetel.model.TimetableItem;
-
 import javax.transaction.Transactional;
 import java.util.*;
 

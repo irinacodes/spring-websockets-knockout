@@ -1,8 +1,6 @@
 package rs.enetel;
 
-
 import rs.enetel.model.TimetableItem;
-
 import java.util.*;
 
 public class Timetable {
