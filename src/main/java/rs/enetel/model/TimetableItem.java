@@ -26,8 +26,6 @@ public class TimetableItem {
 
     private int track;
 
-    private long updateTime;
-
     public TimetableItem() {}
 
     public TimetableItem(String trainCode,String carrier, String departureStation,
@@ -41,20 +39,6 @@ public class TimetableItem {
         this.plannedArrivalMinute = plannedArrivalMinute;
         this.delayInMinutes = delayInMinutes;
         this.track = track;
-        this.updateTime = System.currentTimeMillis();
-    }
-
-    public TimetableItem(TimetableItem other, int delayInMinutes) {
-        this.trainId = other.trainId;
-        this.carrier = other.carrier;
-        this.trainCode = other.trainCode;
-        this.departureStation = other.departureStation;
-        this.destinationStation = other.destinationStation;
-        this.plannedArrivalHour = other.plannedArrivalHour;
-        this.plannedArrivalMinute = other.plannedArrivalMinute;
-        this.track = other.track;
-        this.delayInMinutes = other.delayInMinutes + delayInMinutes;
-        this.updateTime = System.currentTimeMillis();
     }
 
     public Long getTrainId() {
@@ -93,10 +77,6 @@ public class TimetableItem {
         return track;
     }
 
-    public long getUpdateTime() {
-        return updateTime;
-    }
-
     public void setTrainId(Long trainId) {
         this.trainId = trainId;
     }
@@ -131,10 +111,6 @@ public class TimetableItem {
 
     public void setTrack(int track) {
         this.track = track;
-    }
-
-    public void setUpdateTime(long updateTime) {
-        this.updateTime = updateTime;
     }
 
     @Override
